@@ -9,4 +9,4 @@ def main(n):
         bool: answer
     """
 
-    return
+    return str(n).count('1')>str(n).count('0')
