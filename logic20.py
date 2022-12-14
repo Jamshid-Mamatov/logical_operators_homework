@@ -18,4 +18,4 @@ def main(n):
     n//=10
     x5=n%10
 
-    return x1+x2+x3+x4+x5>2
+    return (n>=1000 and x1+x2+x3+x4+x5>2) or (n<1000 and x1+x2+x3+x4+x5>=2)
